@@ -3,6 +3,8 @@ CreativeTrustCrmDemo::Application.routes.draw do
     get 'creative', :on => :collection
   end
 
+  root :to => 'customers#index'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
