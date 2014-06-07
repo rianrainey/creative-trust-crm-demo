@@ -1,0 +1,13 @@
+FATAL:  lock file "postmaster.pid" already exists
+HINT:  Is another postmaster (PID 3419) running in data directory "/usr/local/var/postgres"?
+LOG:  database system was interrupted; last known up at 2014-06-05 17:51:16 CDT
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  record with zero length at 0/55FFE800
+LOG:  redo is not required
+LOG:  autovacuum launcher started
+LOG:  database system is ready to accept connections
+FATAL:  database "creative-trust-crm-demo_test" does not exist
+FATAL:  database "creative-trust-crm-demo_test" does not exist
+ERROR:  syntax error at or near "references" at character 46
+STATEMENT:  ALTER TABLE "products" ADD COLUMN "customer" references
+FATAL:  database "creative-trust-crm-demo_test" does not exist

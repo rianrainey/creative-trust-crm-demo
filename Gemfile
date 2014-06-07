@@ -23,6 +23,21 @@ end
 
 gem 'jquery-rails'
 
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0.0'
+end
+
+group :development do
+  gem 'guard-rspec', require: false
+  gem 'pry'
+end
+
+group :test do
+  gem 'factory_girl_rails'
+  gem 'shoulda-matchers'
+  gem 'capybara'
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
