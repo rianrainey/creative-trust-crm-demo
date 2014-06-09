@@ -11,3 +11,5 @@ FATAL:  database "creative-trust-crm-demo_test" does not exist
 ERROR:  syntax error at or near "references" at character 46
 STATEMENT:  ALTER TABLE "products" ADD COLUMN "customer" references
 FATAL:  database "creative-trust-crm-demo_test" does not exist
+ERROR:  syntax error at or near "01" at character 69
+STATEMENT:  SELECT "products".* FROM "products"  WHERE (created_at > 2014-06-02 01:23:46 UTC)

@@ -11,3 +11,10 @@
  *= require_self
  *= require_tree .
  */
+
+@import "bootstrap";
+@import "bootstrap/theme";
+
+body {
+  background: #FF0000;
+}

@@ -5,4 +5,8 @@ class Product < ActiveRecord::Base
   validates_presence_of :description
 
   belongs_to :customer
+
+  scope :this_week, -> {
+    where("created_at > ?", 1.week.ago)
+  }
 end

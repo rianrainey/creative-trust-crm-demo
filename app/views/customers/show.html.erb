@@ -19,5 +19,15 @@
 </ul>
 
 
+<h2>Published This Week??????!!!!</h2>
+<ul>
+  <% @this_week.each do |product| %>
+    <li><%= product.name %></li>
+  <% end %>
+</ul>
+
+
 <%= link_to 'Edit', edit_customer_path(@customer) %> |
 <%= link_to 'Back', customers_path %>
+
+For example, <code>&lt;section&gt;</code> should be wrapped as inline.

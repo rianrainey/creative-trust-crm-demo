@@ -19,6 +19,7 @@ class CustomersController < ApplicationController
   def show
     @customer = Customer.find(params[:id])
     @products = Product.find_all_by_customer_id(@customer.id)
+    @this_week = Product.this_week
 
     respond_to do |format|
       format.html # show.html.erb
